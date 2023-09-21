@@ -3,13 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingCommunity.API", "CodingCommunity.API\CodingCommunity.API.csproj", "{67B46039-E62A-40F2-A4D1-1D0DEC59A0EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodingCommunity.API", "CodingCommunity.API\CodingCommunity.API.csproj", "{67B46039-E62A-40F2-A4D1-1D0DEC59A0EE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D4D2D5DB-3D0B-4182-92CE-7E09612C5BF1} = {D4D2D5DB-3D0B-4182-92CE-7E09612C5BF1}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingCommunity.Domain", "CodingCommunity.Domain\CodingCommunity.Domain.csproj", "{D4D2D5DB-3D0B-4182-92CE-7E09612C5BF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodingCommunity.Domain", "CodingCommunity.Domain\CodingCommunity.Domain.csproj", "{D4D2D5DB-3D0B-4182-92CE-7E09612C5BF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingCommunity.Infrastructure", "CodingCommunity.Infrastructure\CodingCommunity.Infrastructure.csproj", "{8A12208C-6032-48D4-AAD1-23CE6C4E23E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodingCommunity.Infrastructure", "CodingCommunity.Infrastructure\CodingCommunity.Infrastructure.csproj", "{8A12208C-6032-48D4-AAD1-23CE6C4E23E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingCommunity.Domain.Tests", "CodingCommunity.Domain.Tests\CodingCommunity.Domain.Tests.csproj", "{1A92B7BE-C3A6-4F97-B9A5-B1B657D06883}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodingCommunity.Domain.Tests", "CodingCommunity.Domain.Tests\CodingCommunity.Domain.Tests.csproj", "{1A92B7BE-C3A6-4F97-B9A5-B1B657D06883}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingCommunity.Shared", "CodingCommunity.Shared\CodingCommunity.Shared.csproj", "{D64CC800-4125-42B9-AFE4-383EB1B47328}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +38,10 @@ Global
 		{1A92B7BE-C3A6-4F97-B9A5-B1B657D06883}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A92B7BE-C3A6-4F97-B9A5-B1B657D06883}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A92B7BE-C3A6-4F97-B9A5-B1B657D06883}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D64CC800-4125-42B9-AFE4-383EB1B47328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D64CC800-4125-42B9-AFE4-383EB1B47328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D64CC800-4125-42B9-AFE4-383EB1B47328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D64CC800-4125-42B9-AFE4-383EB1B47328}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
