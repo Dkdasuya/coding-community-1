@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace CodingCommunity.Infrastructure
 {
@@ -20,7 +21,7 @@ namespace CodingCommunity.Infrastructure
 
         public virtual UserTable User { get; set; } = null!;
         public virtual ICollection<Answer> Answers { get; set; }
-
+        [JsonIgnore]
         public virtual ICollection<Tag> Tags { get; set; }
     }
 }
